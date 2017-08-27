@@ -1,0 +1,80 @@
+.header__social-wrapper {
+  align-items: center;
+  border-top: 1px solid $gray;
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.social__icon--background {
+  background-color: $charcoal;
+  border-radius: 6px;
+  transition: background-color .3s;
+
+  &:hover {
+    background-color: $orange;
+  }
+}
+
+.icon__label {
+  color: $white;
+  margin-top: 10px;
+  transition: color .3s;
+}
+
+.icon--facebook {
+  height: 58px;
+  width: 58px;
+}
+
+.icon--instagram {
+  height: 29px;
+  padding: 14.5px;
+  width: 29px;
+}
+
+.icon--twitter {
+  height: 32px;
+  padding: 12px 14px;
+  width: 32px;
+}
+
+.icon--contact {
+  padding: 8px 9.5px;
+  width: 40px;
+}
+
+.icon--press {
+  padding: 8px 9.5px;
+  width: 40px;
+}
+
+.social__icon {
+  color: $charcoal;
+  font-family: 'featured-item';
+  margin: 0 5px;
+  text-align: center;
+
+  a {
+    display: block;
+    height: 58px;
+    width: 58px;
+  }
+
+  svg {
+    fill: $white;
+  }
+
+  &:hover {
+    .icon__label {
+      color: $charcoal;
+    }
+
+    .facebook__background {
+      fill: $facebook-blue;
+      transition: fill .4s;
+    }
+  }
+}
