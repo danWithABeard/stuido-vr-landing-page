@@ -1,7 +1,7 @@
 {
-  "name": "eos-interactive-website",
-  "version": "0.0.0",
-  "description": "Website for EOS Interactive",
+  "name": "stuido-studios-landing-page",
+  "version": "0.0.1",
+  "description": "Landing page for Stuido Studios",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,12 +10,12 @@
     "type": "git",
     "url": "git@github.com:danWithABeard/eos-interactive.git"
   },
-  "author": "EOS Interactive",
+  "author": "Stuido Studios",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danWithABeard/eos-interactive/issues"
+    "url": "https://github.com/danWithABeard/stuido-vr-landing-page/issues"
   },
-  "homepage": "https://github.com/danWithABeard/eos-interactive#readme",
+  "homepage": "https://github.com/danWithABeard/stuido-vr-landing-page/issues#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.7.0",

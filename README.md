@@ -1,4 +1,4 @@
-# EOS INTERACTIVE
-Initial landing page for EOS Interactive
+# Stuido Studios
+Initial landing page for Stuido Studios
 
 

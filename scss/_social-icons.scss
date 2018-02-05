@@ -1,6 +1,5 @@
 .header__social-wrapper {
   align-items: center;
-  border-top: 1px solid $gray;
   display: flex;
   justify-content: center;
   padding-top: 35px;
@@ -9,7 +8,7 @@
 }
 
 .social__icon--background {
-  background-color: $charcoal;
+  background-color: $white;
   border-radius: 6px;
   transition: background-color .3s;
 
@@ -52,7 +51,7 @@
 }
 
 .social__icon {
-  color: $charcoal;
+  color: $white;
   font-family: 'featured-item';
   margin: 0 5px;
   text-align: center;
@@ -64,16 +63,16 @@
   }
 
   svg {
-    fill: $white;
+    fill: $charcoal;
   }
 
   &:hover {
     .icon__label {
-      color: $charcoal;
+      color: $orange;
     }
 
     .facebook__background {
-      fill: $facebook-blue;
+      fill: $orange;
       transition: fill .4s;
     }
   }
